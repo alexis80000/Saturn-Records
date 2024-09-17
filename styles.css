@@ -113,3 +113,16 @@ footer a:hover {
         padding: 0;
     }
 }
+
+/* Header with Background Image */
+header {
+    background: url('header-bg.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+header .logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
