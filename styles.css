@@ -218,3 +218,19 @@ a, button {
     width: 100%;
     z-index: 1000; /* Ensures the navbar stays above the other elements */
 }
+
+.unlock-regular {
+  font-family: "Unlock", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 800
+
+.playpen-sans-<uniquifier> {
+  font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
