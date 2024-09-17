@@ -201,3 +201,10 @@ a, button {
     outline: none; /* Removes any outline effect on links or buttons */
     box-shadow: none; /* Removes any box-shadow that could be causing the rectangle */
 }
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures the navbar stays above the other elements */
+}
