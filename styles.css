@@ -194,3 +194,19 @@ nav {
 nav:hover {
     background-color: #53354a;
 }
+
+/* Remove the rectangle (outline) that appears on hover or focus */
+* {
+    outline: none;
+    border: none;
+}
+
+* {
+    box-shadow: none;
+}
+
+a, button {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
