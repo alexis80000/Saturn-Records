@@ -234,3 +234,13 @@ a, button {
   font-weight: <weight>;
   font-style: normal;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Unlock', sans-serif;  /* Font for headings */
+    font-weight: 700;  /* Use bolder weight for headings */
+}
+
+body {
+    font-family: 'Playpen Sans', sans-serif;  /* Font for body text */
+    font-weight: 400;  /* Regular weight for body text */
+}
