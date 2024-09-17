@@ -210,3 +210,26 @@ a, button {
     border: none;
     box-shadow: none;
 }
+
+nav {
+    padding: 0;
+    margin: 0;
+    background-color: transparent; /* or the color you'd like */
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+/* To ensure no strange overflow */
+* {
+    overflow: hidden;
+}
+
+section, header, footer, div {
+    overflow: hidden; /* Prevents any overflow */
+}
+
+a, button {
+    outline: none; /* Removes any outline effect on links or buttons */
+    box-shadow: none; /* Removes any box-shadow that could be causing the rectangle */
+}
