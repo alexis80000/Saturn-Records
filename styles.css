@@ -126,3 +126,71 @@ header .logo {
     width: 150px;
     margin-bottom: 20px;
 }
+
+/* Apply this to the body or a specific section */
+body {
+    animation: backgroundColorChange 10s infinite;
+}
+
+@keyframes backgroundColorChange {
+    0% {
+        background-color: #1a1a2e;
+    }
+    25% {
+        background-color: #16213e;
+    }
+    50% {
+        background-color: #0f3460;
+    }
+    75% {
+        background-color: #53354a;
+    }
+    100% {
+        background-color: #1a1a2e;
+    }
+}
+
+button {
+    background-color: #6c63ff;
+    color: blue;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+button:hover {
+    background-color: #53354a;
+    transform: scale(1.1);
+}
+
+h1, h2, h3 {
+    background: linear-gradient(45deg, #ff512f, #dd2476, #1a1a2e);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradientShift 5s infinite;
+    background-size: 300% 300%;
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: background-color 0.5s ease;
+}
+
+nav:hover {
+    background-color: #53354a;
+}
