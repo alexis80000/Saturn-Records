@@ -262,7 +262,7 @@ body {
 
 body {
     background-color: #9A879D;  /* Dark background */
-    color: #D7DEDC;  /* Light grey text */
+    color: black  /* Light grey text */
 }
 
 h1, h2, h3 {
@@ -294,7 +294,7 @@ button:hover {
 
 body {
     background: linear-gradient(135deg, #1F1F2E 0%, #292940 100%);
-    color: #D7DEDC;  /* Light grey text on dark gradient background */
+    color: black  /* Light grey text on dark gradient background */
 }
 
 button {
