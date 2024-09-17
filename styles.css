@@ -314,4 +314,14 @@ img:hover {
     transform: scale(1.05);  /* Slightly enlarge image on hover */
 }
 
+section {
+    border-bottom: 2px solid #563440;  /* Gold line separator */
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.section-divider {
+    background-color: #9A879D;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+}
 
