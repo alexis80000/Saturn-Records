@@ -244,3 +244,74 @@ body {
     font-family: 'Playpen Sans', sans-serif;  /* Font for body text */
     font-weight: 400;  /* Regular weight for body text */
 }
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1.6;  /* Improves readability */
+}
+
+body {
+    background-color: #9A879D;  /* Dark background */
+    color: #D7DEDC;  /* Light grey text */
+}
+
+h1, h2, h3 {
+    color: #563440;  /* Gold for headings */
+}
+
+a {
+    color: #CFCFCD;  /* Coral color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #9A879D;  /* Change color on hover */
+}
+
+button {
+    background-color: #CFCFCD;  /* Bright coral for primary buttons */
+    color: blue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #563440;  /* Change to gold on hover */
+}
+
+body {
+    background: linear-gradient(135deg, #1F1F2E 0%, #292940 100%);
+    color: #D7DEDC;  /* Light grey text on dark gradient background */
+}
+
+button {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Soft shadow */
+}
+
+img {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  /* Shadow around images */
+    border-radius: 10px;  /* Rounded corners for images */
+}
+
+img {
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);  /* Slightly enlarge image on hover */
+}
+
+
