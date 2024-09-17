@@ -34,6 +34,16 @@ header {
     text-align: center;
 }
 
+header {
+    position: relative;  /* Change this from sticky or fixed */
+    top: auto;
+}
+
+nav {
+    position: relative;  /* Change if sticky or fixed */
+    top: auto;
+}
+
 header nav ul {
     list-style-type: none;
     padding: 0;
