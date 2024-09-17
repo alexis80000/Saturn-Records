@@ -191,42 +191,10 @@ nav {
     transition: background-color 0.5s ease;
 }
 
-nav:hover {
-    background-color: #53354a;
-}
-
 /* Remove the rectangle (outline) that appears on hover or focus */
 * {
     outline: none;
     border: none;
-}
-
-* {
-    box-shadow: none;
-}
-
-a, button {
-    outline: none;
-    border: none;
-    box-shadow: none;
-}
-
-nav {
-    padding: 0;
-    margin: 0;
-    background-color: transparent; /* or the color you'd like */
-    border: none;
-    box-shadow: none;
-    outline: none;
-}
-
-/* To ensure no strange overflow */
-* {
-    overflow: hidden;
-}
-
-section, header, footer, div {
-    overflow: hidden; /* Prevents any overflow */
 }
 
 a, button {
