@@ -3,7 +3,7 @@ body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: black;
     color: #333;
     line-height: 1.6;
 }
@@ -29,7 +29,7 @@ h2 {
 /* Header */
 header {
     background-color: #333;
-    color: white;
+    color: black;
     padding: 20px 0;
     text-align: center;
 }
@@ -47,7 +47,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-weight: 600;
     font-size: 1.1em;
@@ -96,7 +96,7 @@ footer a {
 }
 
 footer a:hover {
-    color: white;
+    color: green;
 }
 
 /* Responsive Design */
@@ -117,7 +117,7 @@ footer a:hover {
 /* Header with Background Image */
 header {
     background: url('header-bg.jpg') no-repeat center center/cover;
-    color: white;
+    color: green;
     text-align: center;
     padding: 100px 0;
 }
