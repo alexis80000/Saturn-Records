@@ -500,3 +500,11 @@ header, nav, footer, section {
     padding: 40px 0;  /* Apply consistent padding to all sections */
 }
 
+#contact {
+    text-align: center; /* Centers the text */
+}
+
+#contact .container {
+    display: inline-block;
+    margin: 0 auto;
+}
