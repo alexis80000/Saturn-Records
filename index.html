@@ -24,7 +24,13 @@ window.addEventListener('scroll', () => {
     });
 });
 </script>
-
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'YOUR_TRACKING_ID');
+</script>
     <title>Saturn Records</title>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&family=Unlock&display=swap" rel="stylesheet">
@@ -91,6 +97,14 @@ window.addEventListener('scroll', () => {
             </ul>
         </div>
     </section>
+
+    <section id="testimonials">
+   <h2>What Our Artists Say</h2>
+   <blockquote>"Saturn Records has been fundamental for me as it was responsible for letting me on spotlight!"</blockquote>
+   <cite>— Alex Amarelo</cite>
+    <blockquote>"Saturn Records has powerful tools that you cannot lose. Come in and try for yourself, you won't regret it."</blockquote>
+   <cite>— End_limit</cite>
+</section>
 
     <section id="contact" class="section">
         <div class="container">
