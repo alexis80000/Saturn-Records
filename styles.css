@@ -445,3 +445,16 @@ body {
 h2, h3 {
   color: green; /* Example for changing headings to white */
 }
+
+body {
+  background-image: url('assets/show.jpg'); /* Path to your image */
+  background-size: cover; /* Ensures the image covers the entire screen */
+  background-position: center; /* Centers the image */
+  background-attachment: fixed; /* Keeps the background fixed when scrolling */
+  background-repeat: no-repeat; /* Prevents the background from repeating */
+}
+
+/* Optional: Adjusting padding/margin for elements to look good against the background */
+.container {
+  padding: 20px;
+}
