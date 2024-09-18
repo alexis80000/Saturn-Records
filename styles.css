@@ -366,7 +366,7 @@ body {
 .btn {
   padding: 10px 20px;
   background-color: #ff0054;
-  color: white;
+  color: black;
   text-transform: uppercase;
   border-radius: 5px;
   transition: box-shadow 0.3s ease;
