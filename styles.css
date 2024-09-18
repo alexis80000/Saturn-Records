@@ -508,3 +508,8 @@ header, nav, footer, section {
     display: inline-block;
     margin: 0 auto;
 }
+
+#testimonials, #contact {
+    margin: 0;   /* Remove any extra margins */
+    padding: 40px 0;  /* Add consistent padding to match other sections */
+}
