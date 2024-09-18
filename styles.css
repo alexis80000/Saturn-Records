@@ -437,3 +437,11 @@ footer a {
 footer a:hover {
   color: #ff0054;
 }
+
+body {
+  color: black !important;
+}
+
+h1, h2, h3 {
+  color: white; /* Example for changing headings to white */
+}
