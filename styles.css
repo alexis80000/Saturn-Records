@@ -325,3 +325,35 @@ section {
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
 }
 
+#artists {
+  padding: 50px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.artist-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.artist {
+  margin: 20px;
+  text-align: center;
+}
+
+.artist img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.artist h3 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.artist p {
+  font-size: 1em;
+  color: #666;
+}
