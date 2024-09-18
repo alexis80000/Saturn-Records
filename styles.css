@@ -476,3 +476,13 @@ header, nav, footer, section {
   background-color: white;  /* Change to white */
   color: black;             /* Update text color if needed */
 }
+
+#testimonials, #contact {
+    margin: 0;   /* Remove any extra margins */
+    padding: 40px 0;  /* Add consistent padding to match other sections */
+}
+
+.section {
+    margin: 0;   /* Ensure all sections have the same margins */
+    padding: 40px 0;  /* Adjust padding for uniformity across sections */
+}
