@@ -471,8 +471,3 @@ header, nav, footer, section {
   padding: 20px;
   border-radius: 10px; /* Rounds the corners for a softer look */
 }
-
-/* Adjust the text color for readability */
-h1, h2, p {
-  color: #fff;
-}
