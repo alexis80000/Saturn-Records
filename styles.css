@@ -471,3 +471,8 @@ header, nav, footer, section {
   padding: 20px;
   border-radius: 10px; /* Rounds the corners for a softer look */
 }
+
+.testimonials {
+  background-color: white;  /* Change to white */
+  color: black;             /* Update text color if needed */
+}
