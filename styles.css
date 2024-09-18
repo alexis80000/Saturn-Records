@@ -442,6 +442,6 @@ body {
   color: black !important;
 }
 
-h1, h2, h3 {
+h2, h3 {
   color: green; /* Example for changing headings to white */
 }
