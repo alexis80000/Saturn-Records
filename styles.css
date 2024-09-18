@@ -458,3 +458,21 @@ body {
 .container {
   padding: 20px;
 }
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-size: contain; /* This will prevent the image from being cut off on small screens */
+    background-attachment: scroll; /* Allow scrolling to improve performance on mobile */
+  }
+}
+
+header, nav, footer, section {
+  background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent black background */
+  padding: 20px;
+  border-radius: 10px; /* Rounds the corners for a softer look */
+}
+
+/* Adjust the text color for readability */
+h1, h2, p {
+  color: #fff;
+}
