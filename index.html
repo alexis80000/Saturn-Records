@@ -5,6 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    const fadeInElements = document.querySelectorAll('.fade-in');
+
+window.addEventListener('scroll', () => {
+  fadeInElements.forEach(element => {
+    const rect = element.getBoundingClientRect();
+    if (rect.top < window.innerHeight) {
+      element.classList.add('visible');
+    }
+  });
+});
+
     <title>Saturn Records</title>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&family=Unlock&display=swap" rel="stylesheet">
