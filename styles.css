@@ -486,3 +486,17 @@ header, nav, footer, section {
     margin: 0;   /* Ensure all sections have the same margins */
     padding: 40px 0;  /* Adjust padding for uniformity across sections */
 }
+
+#testimonials {
+    margin-bottom: 60px; /* If this is causing the gap, reduce or remove */
+}
+
+#contact {
+    margin-top: 60px; /* Reduce or remove this */
+}
+
+.section {
+    margin: 0;
+    padding: 40px 0;  /* Apply consistent padding to all sections */
+}
+
