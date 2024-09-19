@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>https://alexis80000.github.io/Saturn-Records/</loc>
+      <lastmod>2024-09-19</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+   </url>
+   <url>
+      <loc>https://alexis80000.github.io/Saturn-Records/artist-submission.html</loc>
+      <lastmod>2024-09-19</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://alexis80000.github.io/Saturn-Records/google%20tools.html</loc>
+      <lastmod>2024-09-19</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://alexis80000.github.io/Saturn-Records/index.html</loc>
+      <lastmod>2024-09-19</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+   </url>
+   <!-- Add more URLs here for other HTML pages -->
+</urlset>
