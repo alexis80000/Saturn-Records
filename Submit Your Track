@@ -1,1 +1,87 @@
-artist-submission.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Submission Portal | Saturn Records</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        input[type="file"] {
+            margin-bottom: 20px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Submit Your Music to Saturn Records</h2>
+        <form action="/submit-artist" method="POST" enctype="multipart/form-data">
+            <!-- Artist Name -->
+            <label for="name">Artist Name</label>
+            <input type="text" id="name" name="artist_name" required>
+
+            <!-- Email -->
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <!-- Artist Bio -->
+            <label for="bio">Artist Bio</label>
+            <textarea id="bio" name="bio" rows="5" required></textarea>
+
+            <!-- Spotify/SoundCloud Links -->
+            <label for="links">Music Links (Spotify, SoundCloud, etc.)</label>
+            <input type="text" id="links" name="music_links" placeholder="Paste your music links here">
+
+            <!-- Upload Demo File -->
+            <label for="demo">Upload Demo (MP3, WAV)</label>
+            <input type="file" id="demo" name="demo_file" accept=".mp3, .wav">
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
+
