@@ -540,15 +540,19 @@ img {
 }
 
 .featured-artists {
-  display: flex;
-  justify-content: space-around; /* or use 'space-between' for even spacing */
-  flex-wrap: wrap; /* Allows items to wrap to the next line if the screen size is smaller */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust 300px as needed */
+  grid-gap: 20px; /* Adds space between items */
+  justify-items: center; /* Centers items within their columns */
 }
 
 .artist-profile {
-  flex: 1 1 30%; /* This will allow the artist profiles to take up 30% of the available space */
-  margin: 10px; /* Adds space between the profiles */
+  text-align: center;
+  background-color: #f4f4f4; /* Optional styling */
+  padding: 20px;
+  border-radius: 8px;
 }
+
 
 @media (max-width: 768px) {
   .featured-artists {
