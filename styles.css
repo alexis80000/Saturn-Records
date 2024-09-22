@@ -564,3 +564,9 @@ img {
     width: 80%; /* Makes the profiles take more space on small screens */
   }
 }
+
+@media (max-width: 768px) {
+  .featured-artists {
+    grid-template-columns: 1fr; /* Stack the items on top of each other */
+  }
+}
